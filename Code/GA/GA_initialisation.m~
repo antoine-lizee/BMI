@@ -1,0 +1,31 @@
+%% GA_initialisation
+%
+function pop = GA_initialisation(n_chr, length_chr, pool_neurons)
+
+pop = zeros(n_chr, length_chr);
+
+for i_chr = 1:n_chr
+    pop(i_chr, :) = randsample(pool_neurons, length_chr);
+end
+
+% e = 0.0862 // sum(E) = 11     2     9    15    13     5     4    10
+pop(1, :) = [4     7    18    27    44    55    69    75    86    97];
+% e = 0.0813 // sum(E) = 2     2    15    11    20     4     5     6
+pop(2, :) = [3     6    31    34    36    44    59    75    90    97];
+% e = 0.0712 // sum(E) = 5     5    14    10    10     4     3     6
+pop(3, :) = [3     4    27    31    34    35    44    80    81    97]; 
+% e = 0.0625 // sum(E) = 3     2     9    13     9     4     4     6
+pop(4, :) = [3     4    18    27    31    36    44    80    81    97]; 
+% e = 0.0600 // sum(E) = 3     3     7    11    10     4     4     6
+pop(5, :) = [3     4    18    27    36    44    69    80    81    97];
+
+% shaking...
+pop(1, :) = pop(1, randperm(length_chr));
+pop(2, :) = pop(2, randperm(length_chr));
+pop(3, :) = pop(3, randperm(length_chr));
+pop(4, :) = pop(4, randperm(length_chr));
+pop(5, :) = pop(5, randperm(length_chr));
+end
+%%
+% END
+%

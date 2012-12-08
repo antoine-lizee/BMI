@@ -1,0 +1,177 @@
+Starting GA...
+* * *
+Gen 0 ; best error = 0.23375
+
+old_best_chr =
+
+    93    75    23    41    70    65    79    40    34    69
+
+* * *
+Gen 1 ; best error = 0.20875
+
+old_best_chr =
+
+    31    23    86    81    58    44    74     9    13     4
+
+* * *
+Gen 2 ; best error = 0.20875
+
+old_best_chr =
+
+    31    23    86    81    58    44    74     9    13     4
+
+* * *
+Gen 3 ; best error = 0.16875
+
+old_best_chr =
+
+    41    30    77    32    69    80     7    66    59     4
+
+* * *
+Gen 4 ; best error = 0.16875
+
+old_best_chr =
+
+    41    30    77    32    69    80     7    66    59     4
+
+* * *
+Gen 5 ; best error = 0.14
+
+old_best_chr =
+
+    41    30    86    27    69    35    97     9    13     4
+
+* * *
+Gen 6 ; best error = 0.14
+
+old_best_chr =
+
+    41    30    86    27    69    35    97     9    13     4
+
+* * *
+Gen 7 ; best error = 0.14
+
+old_best_chr =
+
+    41    30    86    27    69    35    97     9    13     4
+
+* * *
+Gen 8 ; best error = 0.14
+
+old_best_chr =
+
+    41    30    86    27    69    35    97     9    13     4
+
+* * *
+Gen 9 ; best error = 0.14
+
+old_best_chr =
+
+    41    30    86    27    69    35    97     9    13     4
+
+* * *
+Gen 10 ; best error = 0.1325
+
+old_best_chr =
+
+     5    64    86    27    69    35    97     9    20     4
+
+* * *
+Gen 11 ; best error = 0.125
+
+old_best_chr =
+
+     5    64    86    27    69    35    97     9    71     4
+
+* * *
+Gen 12 ; best error = 0.125
+
+old_best_chr =
+
+     5    64    86    27    69    35    97     9    71     4
+
+* * *
+Gen 13 ; best error = 0.125
+
+old_best_chr =
+
+     5    64    86    27    69    35    97     9    71     4
+
+* * *
+Gen 14 ; best error = 0.1125
+
+old_best_chr =
+
+    44    47    86    27    69    35    97     9    13     4
+
+* * *
+Gen 15 ; best error = 0.1125
+
+old_best_chr =
+
+    44    47    86    27    69    35    97     9    13     4
+
+* * *
+Gen 16 ; best error = 0.1125
+
+old_best_chr =
+
+    44    47    86    27    69    35    97     9    13     4
+
+* * *
+Gen 17 ; best error = 0.1025
+
+old_best_chr =
+
+    44    47    86    27    69    22    97    75    20     4
+
+* * *
+Gen 18 ; best error = 0.09
+
+old_best_chr =
+
+    44    47    86    27    69    97     7    75    20     4
+
+* * *
+Gen 19 ; best error = 0.09
+
+old_best_chr =
+
+    44    47    86    27    69    97     7    75    20     4
+
+* * *
+Gen 20 ; best error = 0.09
+
+old_best_chr =
+
+    44    47    86    27    69    97     7    75    20     4
+
+* * *
+Gen 21 ; best error = 0.09
+
+old_best_chr =
+
+    44    47    86    27    69    97     7    75    20     4
+
+* * *
+Gen 22 ; best error = 0.09
+
+old_best_chr =
+
+    44    47    86    27    69    97     7    75    20     4
+
+* * *
+Gen 23 ; best error = 0.08625
+
+old_best_chr =
+
+    44    18    86    27    69    97     7    75    55     4
+
+* * *
+Gen 24 ; error = 0.08625
+
+ans =
+
+    44    18    86    27    69    97     7    75    55     4
+
+DONE !

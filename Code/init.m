@@ -1,0 +1,1 @@
+matrix_data_test = extract_data(trial, 1:100,1:8,1:98,200:550);

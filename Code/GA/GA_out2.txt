@@ -1,0 +1,177 @@
+Starting GA...
+* * *
+Gen 0 ; best error = 0.185
+
+old_best_chr =
+
+    44    74    22    81    31    34     9    35     6     7
+
+* * *
+Gen 1 ; best error = 0.1725
+
+old_best_chr =
+
+    27    44     7    65    93    13    66    40     4    97
+
+* * *
+Gen 2 ; best error = 0.1725
+
+old_best_chr =
+
+    27    44     7    65    93    13    66    40     4    97
+
+* * *
+Gen 3 ; best error = 0.13125
+
+old_best_chr =
+
+    59    44    31    65    93    13    66    40     4    97
+
+* * *
+Gen 4 ; best error = 0.1075
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    44     4    97
+
+* * *
+Gen 5 ; best error = 0.1075
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    44     4    97
+
+* * *
+Gen 6 ; best error = 0.1075
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    44     4    97
+
+* * *
+Gen 7 ; best error = 0.1075
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    44     4    97
+
+* * *
+Gen 8 ; best error = 0.09625
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    58     4    97
+
+* * *
+Gen 9 ; best error = 0.09625
+
+old_best_chr =
+
+    27    44    31    81    18    65    80    58     4    97
+
+* * *
+Gen 10 ; best error = 0.0725
+
+old_best_chr =
+
+    27     3    31    81    18    35    80    44     4    97
+
+* * *
+Gen 11 ; best error = 0.0725
+
+old_best_chr =
+
+    27     3    31    81    18    35    80    44     4    97
+
+* * *
+Gen 12 ; best error = 0.0725
+
+old_best_chr =
+
+    27     3    31    81    18    35    80    44     4    97
+
+* * *
+Gen 13 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 14 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 15 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 16 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 17 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 18 ; best error = 0.07125
+
+old_best_chr =
+
+    27     3    31    81    34    35    80    44     4    97
+
+* * *
+Gen 19 ; best error = 0.0625
+
+old_best_chr =
+
+    27     3    31    81    18    36    80    44     4    97
+
+* * *
+Gen 20 ; best error = 0.0625
+
+old_best_chr =
+
+    27     3    31    81    18    36    80    44     4    97
+
+* * *
+Gen 21 ; best error = 0.0625
+
+old_best_chr =
+
+    27     3    31    81    18    36    80    44     4    97
+
+* * *
+Gen 22 ; best error = 0.0625
+
+old_best_chr =
+
+    27     3    31    81    18    36    80    44     4    97
+
+* * *
+Gen 23 ; best error = 0.0625
+
+old_best_chr =
+
+    27     3    31    81    18    36    80    44     4    97
+
+* * *
+Gen 24 ; error = 0.0625
+
+ans =
+
+    27     3    31    81    18    36    80    44     4    97
+
+DONE !
