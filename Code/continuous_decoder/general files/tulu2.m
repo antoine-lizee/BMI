@@ -19,7 +19,7 @@ i_test_trial = 15;
 i_test_angle = 7;
 
 test_data.startHandPos = trial(i_test_trial, i_test_angle).handPos(1:2, 300);
-
+test_data.decodedHandPos = [];
 n_points_estimated = floor((size(trial(i_test_trial, i_test_angle).handPos, 2) - 300) / bin_size);
 
 estimated_positions = zeros(n_points_estimated+1, 2);
@@ -41,6 +41,8 @@ for i_t = 1:n_points_estimated
     [x_e, y_e, modelParameters] = MTM(test_data, modelParameters);
     estimated_positions(i_t+1, :) = [x_e, y_e];
     real_positions(i_t+1, :) = trial(i_test_trial, i_test_angle).handPos(1:2, t);
+    
+    test_data.decodedHandPos=[1; 2];
     
 end
 

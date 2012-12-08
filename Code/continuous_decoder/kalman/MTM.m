@@ -2,7 +2,6 @@
 
 function [ x, y, modelParameters ] = MTM( test_data, modelParameters )
 
-step = modelParameters(1).step;
 
 neurons_class = modelParameters(1).neurons_class;
 
@@ -13,8 +12,13 @@ neurons_class = modelParameters(1).neurons_class;
 % neur_act = matrix n_neurons x n_t
 neur_act = test_data.spikes(neurons_class, :);
 
+if isempty(test_data.decodedHandPos)
+    [modelParameters.step]=deal(0);
+end
+step = modelParameters(1).step;
 
-if (modelParameters(1).step < 10 )
+
+if (modelParameters(1).step < 3 )
     
     param = modelParameters(1).param(step+1);
     LL = decode_LLcont( neur_act, param );

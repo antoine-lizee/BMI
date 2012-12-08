@@ -12,7 +12,12 @@ suppl_neurons = [15,26,37,39,48,60,85,87,98];
 selected_neurons = [3,4,7,9,13,18,22,27,34,35,36,40,41,47,55,56,58,59,64,65,66,71,75,77,80,81,86,96,97,suppl_neurons];
 order=4;
 bin_size=20;
-modelParameters = trainContinuousEstimator_kalman(training_data, order, bin_size, selected_neurons);
+
+neurons_class=[3,4,5,6,7,9,13,18,22,27,30,31,32,34,35,36,40,41,44,47,55,56,58,59,64,65,66,69,70,71,75,77,80,81,86,90,93,97];
+
+% modelParameters = trainContinuousEstimator_kalman(training_data, order, bin_size, selected_neurons);
+
+modelParameters = train_MTM(training_data, order, bin_size, selected_neurons, neurons_class);
 
 end
 %%

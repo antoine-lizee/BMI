@@ -57,6 +57,7 @@ E=zeros(n_cv,8);
 %A=zeros(n_cv,n_a*n_trial); % DEBUG ONLY
 
 for i_cv=1:n_cv
+    disp(i_cv);
     % extract the right data for training and testing
     train_data=trials(ind_cv(1:n_train,i_cv),:);
     test_data=trials(ind_cv(n_train+1:end,i_cv),:);

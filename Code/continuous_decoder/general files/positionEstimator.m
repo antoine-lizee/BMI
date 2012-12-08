@@ -27,9 +27,11 @@ function [x, y, modelParameters] = positionEstimator(test_data, modelParameters)
 
 
 % if method == 'kalman'
-[x, y, modelParameters] = positionEstimator_kalman(test_data, modelParameters);
+%[x, y, modelParameters] = positionEstimator_kalman(test_data, modelParameters);
 % elseif method == 'modified kalman'
 % end
+
+[x, y, modelParameters] = MTM(test_data, modelParameters);
 
 %
 
