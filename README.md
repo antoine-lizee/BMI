@@ -8,7 +8,7 @@ This is a library that we developed with my team to compete for the departmental
 The competition featured two tasks. Performance for ranking was measured by the organising team only. We got the second position for the first task and finished first for the second task, and won the copetition overall.
 
 
-Here are presented general features of the problem. **The resolution is tackled in detail in the report file "Rapport.pdf" located on the root.** The reader is strongly advised to have at least a look at it.
+Here are presented general features of the problem. **The resolution is tackled in detail in the [report file](https://github.com/antoine-lizee/BMI/raw/master/Rapport.pdf) located on the root.** The reader is strongly advised to have at least a look at it.
 
 ## Description of the problem
 
